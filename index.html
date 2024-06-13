@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Churrasco</title>
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="/script.js"></script>
+</head>
+<body>
+    <h2>Calculadora de Churrasco</h2>
+    <label>Homens:<input type="number" id="homem"></label><br>
+    <label>Mulheres:<input type="number" id="mulher"></label><br>
+    <label>Crianças:<input type="number" id="crianca"></label><br>
+    <button id="calcular" onclick="calculoFinal(calculoCarne(),calculoFrango(),calculoLinguica(),calculoRefrigerante(),calculoCerveja())">Calcular</button><br>
+
+    <div>Quantidade de itens a serem comprados:</div><br>
+    
+    <div>
+        <ul>
+            <li><label id="resCarne" value="0">0</label> Kg de carne bovina <br></li>
+            <li><label id="resFrango" value="0">0</label> Kg de frango <br></li>
+            <li><label id="resLinguica" value="0">0</label> Kg de linguica <br></li>
+            <li><label id="resRefri" value="0">0</label> L de refrigerante <br></li>
+            <li><label id="resCerv" value="0">0</label> L de cerveja <br></li>
+        </ul>
+    </div>
+
+</body>
+</html>
